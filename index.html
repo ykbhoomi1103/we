@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WE - Share Your Experience</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 WE</h1>
+    <input type="text" id="searchBar" placeholder="Search places or products..." />
+  </header>
+
+  <main>
+    <section class="create-post">
+      <h2>Write Your Review</h2>
+      <input type="text" id="title" placeholder="Title (Place or Product)" />
+      <textarea id="content" placeholder="Share your experience..."></textarea>
+      <button onclick="createPost()">Post</button>
+    </section>
+
+    <section class="posts" id="postContainer">
+      <!-- Posts will appear here -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
